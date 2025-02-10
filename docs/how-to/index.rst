@@ -35,6 +35,7 @@ with COS to actually observe them.
    Exposing a metrics endpoint <exposing-a-metrics-endpoint>
    Integrating COS Lite with uncharmed applications <integrating-cos-lite-with-uncharmed-applications>
    Configure scrape jobs <configure-scrape-jobs>
+   Disable charmed rules <disable-charmed-rules>
 
 Troubleshooting
 ===============
