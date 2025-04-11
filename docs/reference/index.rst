@@ -8,6 +8,8 @@ Reference
 
     Solution Matrix <solution-matrix>
     Juju Topology Labels <juju-topology-labels>
+    Cryptographic Documentation <cryptographic-documentation>
+    Security Hardening Guide <security-hardening-guide>
 
 Kubernetes Charms
 =================
@@ -43,3 +45,4 @@ Machine Charms
 
 - `Grafana Agent <https://charmhub.io/grafana-agent>`_
 - `COS Proxy <https://charmhub.io/cos-proxy>`_
+

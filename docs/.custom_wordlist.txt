@@ -73,5 +73,10 @@ OSD
 boolean
 Charmcraft
 ZooKeeper
+VPN
+Cryptographic
+cryptographic
+BCrypt
+SHA
 OTEL
 lifecycle
