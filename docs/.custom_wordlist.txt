@@ -75,3 +75,4 @@ Charmcraft
 ZooKeeper
 OTEL
 lifecycle
+OpenStack
