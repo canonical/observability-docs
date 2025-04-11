@@ -75,7 +75,7 @@ end
 ```
 
 ## Self-monitoring view
-The observability solution monitors itself to ensure correct functioning. The self-monitoring relations together with [cos-alerter](https://charmhub.io/cos-alerter) guard against outages of the observability stack itself.
+The observability solution monitors itself to ensure correct functioning. The self-monitoring relations together with [cos-alerter](https://github.com/canonical/cos-alerter) guard against outages of the observability stack itself.
 
 ```mermaid
 graph TD
