@@ -82,10 +82,14 @@ it to `tempo` over the `tracing` relation:
 ```bash 
 $ juju integrate tempo:tracing alertmanager:tracing
 $ juju integrate tempo:tracing catalogue:tracing
-$ juju integrate tempo:tracing grafana:tracing
-$ juju integrate tempo:tracing loki:tracing
-$ juju integrate tempo:tracing prometheus:tracing
-$ juju integrate tempo:tracing traefik:tracing
+$ juju integrate tempo:tracing traefik:charm-tracing
+$ juju integrate tempo:tracing traefik:workload-tracing
+$ juju integrate tempo:tracing loki:charm-tracing
+$ juju integrate tempo:tracing loki:workload-tracing
+$ juju integrate tempo:tracing grafana:charm-tracing
+$ juju integrate tempo:tracing grafana:workload-tracing
+$ juju integrate tempo:tracing prometheus:charm-tracing
+$ juju integrate tempo:tracing prometheus:workload-tracing
 ```
 
 ```{note}
