@@ -9,7 +9,7 @@ The workloads that make up COS Lite are servers that need to be reachable from o
 - Prometheus and Loki (both "ingress-per-unit"), ingest telemetry pushed from grafana agent from another model.
 - Alertmanager ("ingress per app"), has a UI for acknowledging or silencing alerts.
 
-```mermaid
+```{mermaid}
 graph LR
 
 subgraph cos_lite["COS Lite"]
@@ -49,7 +49,7 @@ Many of the COS workloads are (API frontends to) data storages that can query ea
 - Grafana queries loki, prometheus for telemetry and alertmanager for alerts.
 - Prometheus and loki evaluate alert rules and post alerts to alertmanager.
 
-```mermaid
+```{mermaid}
 graph LR
 
 subgraph cos_lite["COS Lite"]
@@ -77,7 +77,7 @@ end
 ## Self-monitoring view
 The observability solution monitors itself to ensure correct functioning. The self-monitoring relations together with [cos-alerter](https://github.com/canonical/cos-alerter) guard against outages of the observability stack itself.
 
-```mermaid
+```{mermaid}
 graph TD
 
 subgraph cos_lite["COS Lite"]
