@@ -138,7 +138,7 @@ that avoid repetitive overhead in setting up bundles like COS Lite.
 Specifically, we offer the following overlays:
 
 - the [offers overlay](https://github.com/canonical/cos-lite-bundle/blob/main/overlays/offers-overlay.yaml) 
-  makes your COS model ready for [cross-model relations](https://documentation.ubuntu.com/juju/latest/reference/relation/#cross-model)
+  makes your COS model ready for [cross-model relations](https://documentation.ubuntu.com/juju/3.6/reference/relation/#cross-model)
 
 - the [storage-small overlay](https://github.com/canonical/cos-lite-bundle/blob/main/overlays/storage-small-overlay.yaml)
   applies some defaults for the various storage used by the COS Lite components.

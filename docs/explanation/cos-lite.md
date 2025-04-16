@@ -89,7 +89,7 @@ by making their ``/metrics`` endpoints part of the Juju state.
 
 #### [COS Proxy](https://charmhub.io/cos-proxy)
 
-The COS Proxy charmed operator is a charm [for virtual and physical machines](https://documentation.ubuntu.com/juju/latest/howto/manage-charms/index.html#build-a-charm)
+The COS Proxy charmed operator is a charm [for virtual and physical machines](https://documentation.ubuntu.com/juju/latest/howto/manage-charms/index.html)
 designed to “translate” the relations supported by the previous iteration, LMA, to COS native ones.
 
 #### [COS Configuration](https://charmhub.io/cos-configuration-k8s)

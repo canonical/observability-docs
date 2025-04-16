@@ -196,7 +196,7 @@ or using Prometheus Web UI:
 
 ## Sync interval
 
-The repository syncs on every [`update-status` event](https://documentation.ubuntu.com/juju/latest/reference/hook/#update-status) or when the juju administrator manually runs the `sync-now` action.
+The repository syncs on every [`update-status` event](https://documentation.ubuntu.com/juju/3.6/reference/hook/#update-status) or when the juju administrator manually runs the `sync-now` action.
 
 ```shell
 $ juju run cos-config/0 sync-now

@@ -237,7 +237,7 @@ As the next step, we will relate Grafana Agent to the COS Lite components. Speci
 * Loki for the logs, and
 * Grafana for the dashboards. 
 
-From the model our application is running, we can verify the [`offers`](https://documentation.ubuntu.com/juju/latest/howto/manage-relations/#manage-relations) COS Lite is exposing:
+From the model our application is running, we can verify the [`offers`](https://documentation.ubuntu.com/juju/3.6/howto/manage-relations/) COS Lite is exposing:
 
 ```shell
 $ juju find-offers -m k8s:admin/cos
