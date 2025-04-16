@@ -1,6 +1,6 @@
 COS Lite consists of a number of charms connected by juju relations.
 
-The graph is so dense and interconnected that displaying it in its entirety is confusing and uninformative. Instead, for clarity and readability, we depcict the bundle topology using several separate diagrams, each one presenting a view of a specific data flow or functionality group. 
+The graph is so dense and interconnected that displaying it in its entirety is confusing and uninformative. Instead, for clarity and readability, we depict the bundle topology using several separate diagrams, each one presenting a view of a specific data flow or functionality group. 
 Each line indicates a separate juju relation.
 
 ## Ingress view
