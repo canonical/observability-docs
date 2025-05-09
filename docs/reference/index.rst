@@ -6,11 +6,12 @@ Reference
 .. toctree::
    :maxdepth: 1
 
+    Cryptographic Documentation <cryptographic-documentation>
+    Deployment Best Practices <deployment-best-practices>
     Integration Matrix <integration-matrix>
     Juju Topology Labels <juju-topology-labels>
-    Cryptographic Documentation <cryptographic-documentation>
+    Model Topology for COS Lite <cos-lite-model-topology>
     Security Hardening Guide <security-hardening-guide>
-    Deployment Best Practices <deployment-best-practices>
     Rock OCI Images <rock-oci-images>
     Charms <charms>
     Snaps <snaps>

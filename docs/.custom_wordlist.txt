@@ -97,4 +97,16 @@ VPN
 WCAG
 xetex
 xindy
+OSDs
+OSD
+boolean
+Charmcraft
 ZooKeeper
+alerter
+Datasource
+datasources
+frontends
+storages
+venv
+linkcheck
+rf
