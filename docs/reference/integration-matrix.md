@@ -27,4 +27,4 @@
 
 ## External links
 - [Monitoring Agents Comparative Study]( https://lf-anuket.atlassian.net/wiki/spaces/HOME/pages/21878543/Monitoring+Agents+Comparative+Study)
-- [How to integrate COS-Lite with non-juju workloads](https://discourse.charmhub.io/t/how-to-integrate-cos-lite-with-uncharmed-applications/12005)
+- [How to integrate COS Lite with non-juju workloads](https://discourse.charmhub.io/t/how-to-integrate-cos-lite-with-uncharmed-applications/12005)

@@ -64,7 +64,7 @@ Coordinator is reporting 'degraded' because not all roles are assigned in the re
 
 ## Integrate with COS Lite
 
-You can enable self-monitoring for ``tempo`` by integrating it with the other COS-Lite components.
+You can enable self-monitoring for ``tempo`` by integrating it with the other COS Lite components.
  
 ```bash
 $ juju integrate loki:logging tempo:logging
