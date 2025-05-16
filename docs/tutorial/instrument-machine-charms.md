@@ -7,20 +7,22 @@
 
 ## Introduction
 
-This tutorial will teach you how to integrate a charm deployed on a machine substrate with the Canonical Observability Stack, running on Kubernetes.
+This tutorial will teach you how to integrate a charm deployed on a machine substrate with the Canonical Observability Stack running on Kubernetes.
 
-The Grafana Agent machine charm handles installation, configuration, and Day 2 operations specific to [Grafana Agent](https://grafana.com/oss/agent/), using [Juju](https://juju.is). The charm is designed to run in virtual machines as a [subordinate](https://discourse.charmhub.io/t/subordinate-applications/1053). 
+The Grafana Agent machine charm handles installation, configuration, and Day 2 operations specific to the [Grafana Agent](https://grafana.com/oss/agent/), using [Juju](https://juju.is). The charm is designed to run in virtual machines as a [subordinate](https://discourse.charmhub.io/t/subordinate-applications/1053). 
 
 ```{note}
-Application units are typically run in an isolated container on a machine with no knowledge or access to other applications deployed onto the same machine. With subordinate charms, units of different applications to be deployed into the same container and to have knowledge of each other. Subordinate units scale together with their principal.
+Application units are typically run in an isolated container on a machine with no knowledge or access to other applications deployed onto the same machine.
+When you relate a subordinate charm to a principal one, the subordinate will be deployed on the same machine on which the principal is running.
+Subordinate units scale together with their principal.
 ```
 
-## Ensure COS Lite is up and running.
+## Ensure COS Lite is up and running
 
-Before we get started, we will make sure that the observability stack is up and running in our `cos` model (follow the tutorial on [getting started with COS Lite](/tutorial/installation/getting-started-with-cos-lite)) in a K8s controller, like this:
+Before we get started, we will make sure that the Observability Stack is up and running in our `cos` model (follow the tutorial on [getting started with COS Lite](/tutorial/installation/getting-started-with-cos-lite)) in a Kubernetes controller, like this:
 
 ```text
- juju status --relations
+$ juju status --relations
 
 Model  Controller  Cloud/Region        Version  SLA          Timestamp
 cos    charm-dev   microk8s/localhost  2.9.42   unsupported  15:43:36-04:00
@@ -76,7 +78,7 @@ traefik:traefik-route               grafana:ingress              traefik_route  
 
 In this example we use COS Lite to observe [Zookeeper](https://github.com/canonical/zookeeper-operator).
 
-In order for it to be able to integrate with COS Lite, we will have to make some changes to our charm.
+In order for it to be able to integrate with COS Lite, we will have to make some changes to the charm.
 
 ### Obtain the `cos_agent` library
 
