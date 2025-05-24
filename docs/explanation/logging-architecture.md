@@ -42,7 +42,7 @@ click grafana-agent "https://charmhub.io/grafana-agent"
 click cos-proxy "https://charmhub.io/cos-proxy"
 ```
 
-### Send logs from k8s charms
+### Send logs from Kubernetes charms
 Depending on your workload, you could choose one of the following [charm libraries](https://charmhub.io/loki-k8s/libraries/loki_push_api):
 - `LokiPushApiConsumer`, for workloads that can speak Loki's Push API.
 - `LogProxyConsumer`, which would automatically inject a Promtail binary into the workload containers of interest.
