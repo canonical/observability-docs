@@ -11,7 +11,14 @@ pytest_plugins so every solution shares them (see README.md).
 import pytest
 from helpers import discover_solutions
 
-pytest_plugins = ["steps.common_steps"]
+pytest_plugins = [
+    "steps.common_steps",
+    "steps.cos_steps",
+    "steps.signal_steps",
+    "steps.self_monitoring_steps",
+    "steps.dashboard_steps",
+    "steps.alert_steps",
+]
 
 _SOLUTIONS = discover_solutions()
 

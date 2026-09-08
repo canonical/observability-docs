@@ -6,6 +6,7 @@ name = "observability-stack"
 version = "0.0.0"
 
 dependencies = [
+  "httpx",
   "jubilant",
   "pytest",
   "pytest-bdd>=8.1.0",
